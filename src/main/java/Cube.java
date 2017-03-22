@@ -12,10 +12,10 @@ public class Cube {
   public int volume() {
     int length = mFace.getLength();
     return length * length * length;
-
-  } // END VOLUME
+  }
 
   public int surfaceArea() {
     return mFace.area() * 6;
   }
+
 }
